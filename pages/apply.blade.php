@@ -36,7 +36,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   </head>
   <body id="apply">
-    <header class="bg-primary-2 text-white">
+    <header class="bg-primary-2 text-white red-border">
       <?php include '../elements/navigation.php' ?>
       <section id="introducingHeader">
         <div class="container mx-auto pt-5">
