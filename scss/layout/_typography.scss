@@ -1,0 +1,318 @@
+// File: _typography.scss
+
+// This file contains all styles related to typography of the pages.
+
+/* STYLES GO HERE */
+@charset "UTF-8";
+@font-face {
+  font-family: 'Inter Extra';
+  src: url("https://godq.de/font/Inter-ExtraBoldItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-Medium.woff2") format("woff2"), url("https://godq.de/font/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-BlackItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-BoldItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter Extra';
+  src: url("https://godq.de/font/Inter-ExtraLightItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter Semi';
+  src: url("https://godq.de/font/Inter-SemiBoldItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter Extra';
+  src: url("https://godq.de/font/Inter-ExtraBold.woff2") format("woff2"), url("https://godq.de/font/Inter-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-Black.woff2") format("woff2"), url("https://godq.de/font/Inter-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-Italic.woff2") format("woff2"), url("https://godq.de/font/Inter-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-Bold.woff2") format("woff2"), url("https://godq.de/font/Inter-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter Semi';
+  src: url("https://godq.de/font/Inter-SemiBold.woff2") format("woff2"), url("https://godq.de/font/Inter-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-LightItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-ThinItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-MediumItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-Regular.woff2") format("woff2"), url("https://godq.de/font/Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-Light.woff2") format("woff2"), url("https://godq.de/font/Inter-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter Extra';
+  src: url("https://godq.de/font/Inter-ExtraLightItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter.woff2") format("woff2"), url("https://godq.de/font/Inter.woff") format("woff");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-BlackItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-Light.woff2") format("woff2"), url("https://godq.de/font/Inter-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-Thin.woff2") format("woff2"), url("https://godq.de/font/Inter-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter Semi';
+  src: url("https://godq.de/font/Inter-SemiBold.woff2") format("woff2"), url("https://godq.de/font/Inter-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-LightItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter.woff2") format("woff2"), url("https://godq.de/font/Inter.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-Italic.woff2") format("woff2"), url("https://godq.de/font/Inter-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-Regular.woff2") format("woff2"), url("https://godq.de/font/Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-Medium.woff2") format("woff2"), url("https://godq.de/font/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-Black.woff2") format("woff2"), url("https://godq.de/font/Inter-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-MediumItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter Semi';
+  src: url("https://godq.de/font/Inter-SemiBoldItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter.woff2") format("woff2"), url("https://godq.de/font/Inter.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-ThinItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-Bold.woff2") format("woff2"), url("https://godq.de/font/Inter-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter';
+  src: url("https://godq.de/font/Inter-BoldItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter Extra';
+  src: url("https://godq.de/font/Inter-ExtraBoldItalic.woff2") format("woff2"), url("https://godq.de/font/Inter-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic; }
+@font-face {
+  font-family: 'Inter Extra';
+  src: url("https://godq.de/font/Inter-ExtraLight.woff2") format("woff2"), url("https://godq.de/font/Inter-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: 'Inter Extra';
+  src: url("https://godq.de/font/Inter-ExtraBold.woff2") format("woff2"), url("https://godq.de/font/Inter-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("https://godq.de/font/HelveticaNeue-BoldOutline.woff2") format("woff2"), url("https://godq.de/font/HelveticaNeue-BoldOutline.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: $dark;
+  line-height: 28px;
+  letter-spacing: .2px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  transition: .3s;
+}
+
+%primaryTitle {
+  font-weight: 900;
+  font-size: 1.5rem;
+  letter-spacing: .8px;
+  @include respond-to(md) {
+    font-size: 2.5rem;
+  }
+}
+
+h1.title {
+  font-weight: 800;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
+  position: relative;
+  z-index: 5;
+  @include respond-to(md) {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    line-height: 5rem;
+  }
+}
+
+
+
+h1.title::after {
+  content: "\a";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #C7242F;
+  display: inline-block;
+  margin: -20px -20px;
+  z-index: -1;
+  position: relative;
+  @include respond-to(md) {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+h2 {
+  @extend %primaryTitle;
+}
+
+h2.title {
+  @extend %primaryTitle;
+  position: absolute;
+  z-index: 5;
+}
+
+h3.backTitle {
+  font-size: 2rem;
+  margin: -1rem 0rem 0rem 0rem;
+  line-height: 2.5rem;
+  color: #db353f;
+  text-transform: uppercase;
+  z-index: 0;
+  position: absolute;
+  font-weight: 900;
+  letter-spacing: .8px;
+  @include respond-to(md) {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-left: -3rem;
+  }
+}
+
+h3.blue {
+  color: #162140;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.text-dark {
+  color: #314157!important;
+}
+
+h4.subHeadline {
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: .8px;
+  margin-bottom: .5rem;
+}
+h4.dark-2 {
+  color: #1a2536;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  i {
+    font-size: 1.2rem;
+  }
+}

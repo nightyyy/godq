@@ -1,0 +1,24 @@
+// File: _base.scss
+
+// This file contains all used resets, variables, mixins or any other utility classes.
+
+/* STYLES GO HERE */
+$primary: #151E3C; // light blue
+$primary-2: #10172D; // dark blue
+
+$secondary: #e3393a; // red
+$secondary-2: #d12e2f; // dark red
+
+$dark: #111821; // dark
+$darker-dark: #0C131C; // like dark, just darker
+
+$green: #48b87c;
+$red: #ba4343;
+$grey: #8c8c8c;
+
+$breakpoints: (
+  'sm': (min-width: 576px),
+  'md': (min-width: 768px),
+  'lg': (min-width: 992px),
+  'xl': (min-width: 1200px),
+);

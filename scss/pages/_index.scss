@@ -1,0 +1,128 @@
+body#index {
+  section#aboutUs {
+    background: url(https://godq.de/images/bgRedDiscord.svg) no-repeat center;
+    background-size: cover;
+    i {
+      font-size: 2rem;
+    }
+  }
+  section#discord {
+    img {
+      animation: action 1s infinite  alternate;
+    }
+    .discord-text {
+      @include respond-to(md) {
+        max-width: 75%;
+      }
+      .listItem {
+        background: #0c1226;
+        .text-left {
+          font-size: .6rem;
+          line-height: 18px;
+          small {
+            font-size: .5rem;
+            color: #7b8ab8;
+            font-weight: 500;
+          }
+          @include respond-to(md) {
+            font-size: .8rem;
+            small {
+              font-size: .6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  @keyframes action {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+  }
+  section#latestMatches {
+    background: transparent;
+    background-image: linear-gradient(-110deg, #111821 70%, #0C131C 70%);
+    .rounded-pill {
+      font-size: .8rem;
+      padding: .5rem 1rem;
+      @include respond-to(md) {
+        font-size: 1rem;
+        padding: .5rem 1.5rem;
+      }
+    }
+    %dot {
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      display: none;
+      margin-right: 1rem;
+      @include respond-to(md) {
+        display: inline-block;
+      }
+    }
+    .greenDot {
+      @extend %dot;
+      background: $green;
+    }
+    .redDot {
+      @extend %dot;
+      background: $red;
+    }
+    .greyDot {
+      @extend %dot;
+      background: $grey;
+    }
+  }
+  section#players {
+    background: $primary;
+    @include respond-to(md) {
+      .titleSection {
+        p {
+          max-width: 50%;
+        }
+      }
+    }
+    .playerTitle {
+      font-size: 2rem;
+      margin: -1.5rem 0rem 0rem 0rem;
+      line-height: 2.5rem;
+      color: #fff;
+      text-transform: uppercase;
+      z-index: 0;
+      font-weight: 900;
+      letter-spacing: .8px;
+      @include respond-to(md) {
+        font-size: 3.5rem;
+        margin-top: -2rem;
+        margin-left: -3.5rem;
+      }
+    }
+    .card {
+      .card-body {
+        background: url("https://godq.de/cdn/operators/twitch.png") no-repeat center;
+        background-size: cover;
+      }
+      .cardBottomFixed {
+        text-transform: uppercase;
+        letter-spacing: .1px;
+        font-size: .9rem;
+        font-weight: 700;
+      }
+    }
+    .blue {
+      border-bottom: 5px solid #277bf4;
+    }
+    .yellow {
+      border-bottom: 5px solid #F1C40F;
+    }
+    .red {
+      border-bottom: 5px solid $secondary;
+    }
+    .purple {
+      border-bottom: 5px solid #9f36e5;
+    }
+  }
+}
