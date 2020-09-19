@@ -65,7 +65,7 @@
               <div class="form-group col-md-4">
                 <label for="inputState" >Bewerben als*</label>
                 <select id="inputState" required class="defaultForm form-control">
-                  <option selected></option>
+                  <option selected>...</option>
                   <option>Spieler</option>
                   <option>Backup Spieler</option>
                   <option>Content Creater</option>
@@ -74,9 +74,9 @@
                 </select>
               </div>
               <div class="form-group col-md-4">
-                <label for="inputPassword4" >Welche Rolle spielst du in Rainbow?</label>
+                <label for="inputPassword4" >Welche Rolle spielst du in Rainbow?*</label>
                 <select id="inputState" required class="defaultForm form-control">
-                  <option selected></option>
+                  <option selected>...</option>
                   <option>Fragger</option>
                   <option>Flex</option>
                   <option>Support</option>
@@ -84,16 +84,16 @@
                 </select>
               </div>
               <div class="form-group col-md-4">
-                <label for="inputPassword4" >IGL Erfahrung?</label>
+                <label for="inputPassword4" >IGL Erfahrung?*</label>
                 <select id="inputState" required class="defaultForm form-control">
-                  <option selected></option>
+                  <option selected>...</option>
                   <option>Ja</option>
                   <option>Nein</option>
                 </select>
               </div>
             </div>
             <div class="form-group">
-              <label for="inputPassword4" >R6 Tracker Link:*</label>
+              <label for="inputPassword4" >R6 Tracker Link zu deinem Account:*</label>
               <input type="text" required class="defaultForm form-control" id="inputPassword4">
             </div>
             <div class="form-row">
@@ -112,12 +112,12 @@
             </div>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputPassword4" >Selbstbeschreibung in ein paar Sätzen:</label>
-                <textarea type="text" class="defaultForm form-control" id="inputPassword4"></textarea>
+                <label for="inputPassword4" >Selbstbeschreibung in ein paar Sätzen:*</label>
+                <textarea type="text" required class="defaultForm form-control" id="inputPassword4"></textarea>
               </div>
               <div class="form-group col-md-6">
-                <label for="inputPassword4" >Deine Stärken und Schwächen in Rainbow:</label>
-                <textarea type="number" class="defaultForm form-control" id="inputPassword4"></textarea>
+                <label for="inputPassword4" >Deine Stärken und Schwächen in Rainbow:*</label>
+                <textarea type="number" required class="defaultForm form-control" id="inputPassword4"></textarea>
               </div>
             </div>
             <div class="form-group">
