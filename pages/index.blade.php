@@ -36,7 +36,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   </head>
   <body id="index">
-    <header class="bg-primary-2 text-white">
+    <header class="bg-primary-2 text-white" id="indexHeader">
       <?php include '../elements/navigation.php' ?>
       <section id="introducingHeader">
         <div class="container mx-auto py-5">
@@ -295,6 +295,25 @@
       </section>
     </main>
     <?php include '../elements/footer.php' ?>
+    <script src="../src/three.min.js"></script>
+    <script src="../src/vanta.net.min.js"></script>
+    <script>
+    VANTA.NET({
+      el: "#indexHeader",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x151E3C,
+      backgroundColor: 0x10172D,
+      points: 12.00,
+      maxDistance: 23.00,
+      spacing: 19.00
+    })
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
