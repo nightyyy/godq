@@ -1,5 +1,41 @@
-body#apply {
-  header {
-    border-bottom: 10px solid $secondary;
+body#social {
+  .item {
+    min-height: 400px;
+    min-width: 100%;
+    position: relative;
+    margin-bottom: 1.5rem;
+    @include respond-to(md) {
+      margin-right: 1.5rem;
+      min-width: 300px;
+    }
+    span {
+      display: none;
+      @include respond-to(md) {
+        display: block;
+        position: absolute;
+        bottom: 2rem;
+        left: 2rem;
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: white;
+      }
+    }
+  }
+  .item:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: .3s;
+  }
+  #instagram {
+    background: url(../src/instagram_social.svg) no-repeat center;
+    background-size: cover;
+  }
+  #twitter {
+    background: url(../src/twitter_social.svg) no-repeat center;
+    background-size: cover;
+  }
+  #discord {
+    background: url(../src/discord_social.svg) no-repeat center;
+    background-size: cover;
   }
 }

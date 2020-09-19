@@ -4,7 +4,7 @@
     <!-- required meta tags & site info -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Bewerben | GodQ eSports</title>
+    <title>Social Media | GodQ eSports</title>
 
     <!-- meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,46 +35,25 @@
     <script src="https://kit.fontawesome.com/5b4bd5bc16.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   </head>
-  <body id="rules">
-    <header class="bg-primary-2 text-white">
-      <?php include '../elements/navigation.php' ?>
-      <section id="introducingHeader">
-        <div class="container mx-auto pt-5">
-          <div class="titleSection py-5">
-            <h3 class="backTitle blue">Guidelines</h3>
-            <h1 class="smallTitle">Unsere Mitgliedsregeln</h1>
-          </div>
-        </div>
-      </section>
-    </header>
+  <body id="social">
     <main>
-      <section id="content" class="bg-primary text-blue">
+      <section id="content" class="bg-primary-2">
         <div class="container mx-auto py-5">
-          <h5 class="font-weight-bold">Full Squad Gameplay:</h5>
-          <ul class="p-0">
-            <li>- Bei Tod: Callouts mit HP geben und ansonsten nicht unnötig reden (muten), damit Teammitglieder nicht gestört werden.</li>
-            <li>- Der IGL besitzt das letzte Wort und ist verantwortlich für das Match - Kritik ggf. nach dem Match abgeben.</li>
-            <li>- Kein Backseat-Gaming in Clutch-Situationen, only intel.</li>
-            <li>- Kein unnötiges Gelaber, Rumgeschreie, Soundboards, etc.</li>
-          </ul>
-          <h5 class="font-weight-bold">Team Training und Gameplay:</h5>
-          <ul class="p-0">
-            <li>- Püntlichkeit bei Zusage zum Training / Match! Ca. 10 Minuten vor Beginn im Voice Chat erscheinen.</li>
-            <li>- Frühzeitige Absage, wenn an einem Training oder Match nicht teilgenommen werden kann</li>
-            <li>- Eigenes, genügendes Einspielen vor einem Match</li>
-          </ul>
-          <h5 class="font-weight-bold">Logo, Clantag und Informationserhaltung:</h5>
-          <ul class="p-0">
-            <li>- Bei Beitritt in den Clan muss der Ingame-Name auf dem Hauptaccount mit unserem Clantag (.GodQ) ergänzt werden. Bennenung der Smurfs sind jedem Spieler selbst überlassen, sollten aber keinen Clantag von einem anderen Clan enthalten.</li>
-            <li>- Das Profilbild auf uPlay ist unserem Clan Logo anzupassen. Die Änderung auf Discord ist nicht zwingend.</li>
-            <li>- Du solltest damit einverstanden sein, unserer WhatsApp Gruppe beizutreten, da darüber größtenteils die Planung verläuft.</li>
-          </ul>
-          <h5 class="font-weight-bold">Regelung Toxic Behavior:</h5>
-          <ul class="p-0">
-            <li>- Kein toxisches Verhalten in Ranked, Scrims oder ESL Matches, da wir uns dort als Clan repräsentieren (darunter fällt bspw. das Schreiben von "ez", "gn", etc. oder generell unfreundliche Kommentare welche den gegnerischen Clan betreffen).</li>
-            <li>- Keine ernsthaften Beleidigungen auf unserem Discord.</li>
-            <li>- Kein unangemessenes Verhalten in wichtigen Matches (z.B. teamkillen, Positionen preisgeben, Rage Quits, Voice Abuse).</li>
-          </ul>
+          <div class="titleSection py-5">
+            <h3 class="backTitle blue">Social Media</h3>
+            <h1 class="smallTitle text-white">Ja, wir sind digital</h1>
+          </div>
+          <div class="d-flex flex-wrap pb-5">
+            <a class="item rounded" href="https://instagram.com/godqueue" id="instagram">
+              <span>@godqueue</span>
+            </a>
+            <a class="item rounded" href="https://twitter.com/godqr6" id="twitter">
+              <span>@godqr6</span>
+            </a>
+            <a class="item rounded" href="https://godq.de/discord" id="discord">
+              <span>godq.de/discord</span>
+            </a>
+          </div>
         </div>
       </section>
     </main>
