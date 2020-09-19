@@ -16,7 +16,7 @@ Pull Requests sind gerne gesehen, für größere Änderungen ein Issue eröffnen
 ## GodQ Farbpalette
 Die Farben sowie die verwendete Typographie sind einheitlich und sollten nicht verändert werden. 
 Auszug aus der _base.scss:
-```css
+```
 $primary: #151E3C; // light blue
 $primary-2: #10172D; // dark blue
 
