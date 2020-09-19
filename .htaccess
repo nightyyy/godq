@@ -4,7 +4,7 @@ RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
 
 DirectoryIndex /pages/index.blade.html
 
-RewriteRule ^players /pages/players.blade.html [NC,L]
+RewriteRule ^apply /pages/apply.blade.html [NC,L]
 RewriteRule ^social /pages/social.blade.html [NC,L]
 RewriteRule ^itsnighty /pages/social.blade.html [NC,L]
 RewriteRule ^janiki /pages/social.blade.html [NC,L]

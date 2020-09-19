@@ -3,3 +3,38 @@
 // This file contains all styles related to buttons.
 
 /* STYLES GO HERE */
+%button {
+  padding: .5rem 2.5rem;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-blue {
+  @extend %button;
+  background: $primary-2;
+  color: white;
+}
+
+.btn-red {
+  @extend %button;
+  background: $secondary;
+  color: white;
+}
+
+
+button:focus, :active {
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+  transition: .3s;
+  i {
+    transform: translateX(5px);
+    transition: .3s;
+  }
+}

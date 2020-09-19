@@ -1,0 +1,26 @@
+%input {
+  border-radius: 5px;
+  padding: 2px 20px;
+  font-weight: 600;
+  font-size: .9rem;
+  border: 5px solid $primary-2!important;
+  background: $primary!important;
+  color: #7b8ab8!important;
+}
+
+label {
+  font-size: .8rem;
+  font-weight: 800;
+  color: #48557d;
+  letter-spacing: .3px;
+}
+
+input.defaultForm, input.defaultForm:active, select, textarea {
+  @extend %input;
+}
+
+textarea:focus, input:focus, select:focus{
+    outline: none;
+    border: none;
+    box-shadow: none!important;
+}

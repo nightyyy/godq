@@ -2,18 +2,15 @@
 
 // ONLY contains imports for the other included scss files.
 
-@import 'base';
-@import 'components';
-@import 'functions';
-@import 'layout';
-@import 'font';
-
 @import 'abstracts/base';
 @import 'abstracts/functions';
 
 @import 'components/buttons';
+@import 'components/backgrounds';
+@import 'components/forms';
 
 @import 'layout/grid';
 @import 'layout/typography';
 
-@import 'pages/index'
+@import 'pages/index';
+@import 'pages/apply';

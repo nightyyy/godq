@@ -247,7 +247,7 @@ h1.smallTitle {
   position: relative;
   z-index: 5;
   @include respond-to(md) {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 3rem;
     line-height: 5rem;
   }
