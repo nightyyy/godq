@@ -1,6 +1,6 @@
 body#index {
   section#aboutUs {
-    background: url(https://godq.de/images/bgRedDiscord.svg) no-repeat center;
+    background: url(../src/about_index.svg) no-repeat center;
     background-size: cover;
     i {
       font-size: 2rem;
@@ -101,8 +101,28 @@ body#index {
       }
     }
     .card {
-      .card-body {
-        background: url("https://godq.de/cdn/operators/twitch.png") no-repeat center;
+      .recruit {
+        background: url(../src/operators/recruit.svg) no-repeat center;
+        background-size: cover;
+      }
+      .hibana {
+        background: url(../src/operators/hibana.svg) no-repeat center;
+        background-size: cover;
+      }
+      .sledge {
+        background: url(../src/operators/sledge.svg) no-repeat center;
+        background-size: cover;
+      }
+      .ash {
+        background: url(../src/operators/ash.svg) no-repeat center;
+        background-size: cover;
+      }
+      .thermite {
+        background: url(../src/operators/thermite.svg) no-repeat center;
+        background-size: cover;
+      }
+      .valkyrie {
+        background: url(../src/operators/valkyrie.svg) no-repeat center;
         background-size: cover;
       }
       .cardBottomFixed {

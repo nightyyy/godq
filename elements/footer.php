@@ -32,7 +32,7 @@
           <div class="col-md-4 mb-4">
             <h4 class="subHeadline dark-2 text-monospace">Sitemap</h4>
             <ul class="footerSitemap list-group">
-              <li class="sitemapElement mb-1">
+              <!--<li class="sitemapElement mb-1">
                 <a href="#" class="">Home</a>
               </li>
               <li class="sitemapElement mb-1">
@@ -40,9 +40,9 @@
               </li>
               <li class="sitemapElement mb-1">
                 <a href="#" class="">Bewerben</a>
-              </li>
+              </li>-->
               <li class="sitemapElement">
-                <a href="#" class="">Discord</a>
+                <a href="https://godq.de/discord" class="">Discord</a>
               </li>
             </ul>
           </div>

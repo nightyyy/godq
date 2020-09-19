@@ -134,7 +134,7 @@
             <h3 class="playerTitle position-absolute">Leader</h3>
             <div class="singleInner row justify-content-center justify-content-md-start">
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
-                <div class="card-body text-white py-5">
+                <div class="card-body text-white py-5 rounded hibana">
                   <h4 class="card-title mb-3 text-white text-center"><b>David</b></h5>
                   <span class="d-block text-center cardBottomFixed text-white">16, Germany</span>
                 </div>
@@ -144,7 +144,7 @@
                 </div>
               </div>
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
-                <div class="card-body text-white py-5">
+                <div class="card-body text-white py-5 rounded thermite">
                   <h4 class="card-title mb-3 text-white text-center"><b>Janik</b></h5>
                   <span class="d-block text-center cardBottomFixed text-white">17, Germany</span>
                 </div>
@@ -159,7 +159,7 @@
             <h3 class="playerTitle position-absolute">Team Blue</h3>
             <div class="singleInner row justify-content-center justify-content-md-start">
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
-                <div class="card-body text-white py-5">
+                <div class="card-body text-white py-5 rounded sledge">
                   <h4 class="card-title mb-3 text-white text-center"><b>Darnell</b></h5>
                     <span class="d-block text-center cardBottomFixed text-white">16, Germany</span>
                   </div>
@@ -169,7 +169,7 @@
                   </div>
                 </div>
                 <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
-                <div class="card-body text-white py-5">
+                <div class="card-body text-white py-5 rounded recruit">
                   <h4 class="card-title mb-3 text-white text-center"><b>Nico</b></h5>
                   <span class="d-block text-center cardBottomFixed text-white">21, Germany</span>
                 </div>
@@ -179,7 +179,7 @@
                 </div>
               </div>
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
-                <div class="card-body text-white py-5">
+                <div class="card-body text-white py-5 rounded hibana">
                   <h4 class="card-title mb-3 text-white text-center"><b>Patrik</b></h5>
                   <span class="d-block text-center cardBottomFixed text-white">16, Germany</span>
                 </div>
@@ -189,7 +189,7 @@
                 </div>
               </div>
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
-                <div class="card-body text-white py-5">
+                <div class="card-body text-white py-5 rounded ash">
                   <h4 class="card-title mb-3 text-white text-center"><b>Martin</b></h5>
                   <span class="d-block text-center cardBottomFixed text-white">18, Österreich</span>
                 </div>
@@ -199,7 +199,7 @@
                 </div>
               </div>
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
-                <div class="card-body text-white py-5">
+                <div class="card-body text-white py-5 rounded recruit">
                   <h4 class="card-title mb-3 text-white text-center"><b>Carlo</b></h5>
                   <span class="d-block text-center cardBottomFixed text-white">Deutschland</span>
                 </div>
@@ -209,7 +209,7 @@
                 </div>
               </div>
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
-                <div class="card-body text-white py-5">
+                <div class="card-body text-white py-5 rounded recruit">
                   <h4 class="card-title mb-3 text-white text-center"><b>Julian</b></h5>
                   <span class="d-block text-center cardBottomFixed text-white">Deutschland</span>
                 </div>
@@ -219,7 +219,7 @@
                 </div>
               </div>
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
-                <div class="card-body text-white py-5">
+                <div class="card-body text-white py-5 rounded ash">
                   <h4 class="card-title mb-3 text-white text-center"><b>Nando</b></h5>
                   <span class="d-block text-center cardBottomFixed text-white">15, Deutschland</span>
                 </div>
@@ -229,7 +229,7 @@
                 </div>
               </div>
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
-                <div class="card-body text-white py-5">
+                <div class="card-body text-white py-5 rounded valkyrie">
                   <h4 class="card-title mb-3 text-white text-center"><b>Nici</b></h5>
                   <span class="d-block text-center cardBottomFixed text-white">16, Deutschland</span>
                 </div>
@@ -244,7 +244,7 @@
             <h3 class="playerTitle position-absolute">Team Kuzo</h3>
             <div class="singleInner row justify-content-center justify-content-md-start">
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
-                <div class="card-body text-white py-5">
+                <div class="card-body text-white py-5 rounded recruit">
                   <h4 class="card-title mb-3 text-white text-center"><b>Thomas</b></h5>
                   <span class="d-block text-center cardBottomFixed text-white">Germany</span>
                 </div>
@@ -254,7 +254,7 @@
                 </div>
               </div>
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
-                <div class="card-body text-white py-5">
+                <div class="card-body text-white py-5 rounded recruit">
                   <h4 class="card-title mb-3 text-white text-center"><b>Hannes</b></h5>
                   <span class="d-block text-center cardBottomFixed text-white">Germany</span>
                 </div>
@@ -264,7 +264,7 @@
                 </div>
               </div>
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
-                <div class="card-body text-white py-5">
+                <div class="card-body text-white py-5 rounded recruit">
                   <h4 class="card-title mb-3 text-white text-center"><b>Imran</b></h5>
                   <span class="d-block text-center cardBottomFixed text-white">Germany</span>
                 </div>
@@ -279,7 +279,7 @@
             <h3 class="playerTitle position-absolute">Creator</h3>
             <div class="singleInner row justify-content-center justify-content-md-start">
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
-                <div class="card-body text-white py-5">
+                <div class="card-body text-white py-5 rounded recruit">
                   <h4 class="card-title mb-3 text-white text-center"><b>Du?</b></h5>
                   <span class="d-block text-center cardBottomFixed text-white">Internet</span>
                 </div>

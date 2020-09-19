@@ -2,9 +2,15 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
 
-DirectoryIndex /pages/index.blade.html
+DirectoryIndex /pages/maintenance.blade.php
 
-RewriteRule ^apply /pages/apply.blade.html [NC,L]
-RewriteRule ^social /pages/social.blade.html [NC,L]
-RewriteRule ^itsnighty /pages/social.blade.html [NC,L]
-RewriteRule ^janiki /pages/social.blade.html [NC,L]
+RewriteRule ^apply /pages/apply.blade.php [NC,L]
+RewriteRule ^rules /pages/rules.blade.php [NC,L]
+RewriteRule ^social /pages/social.blade.php [NC,L]
+RewriteRule ^beta /pages/index.blade.php [NC,L]
+
+RewriteRule ^itsnighty https://twitch.tv/itsNighty [NC,L]
+RewriteRule ^janiki https://twitch.tv/janiki [NC,L]
+
+RewriteRule ^insta https://instagram.com/godqueue [NC,L]
+RewriteRule ^twitter https://twitter.com/godqr6 [NC,L]
