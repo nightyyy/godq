@@ -85,23 +85,23 @@
       <section id="discord" class="bg-primary py-5">
         <div class="container mx-auto py-5 text-white">
           <div class="d-flex flex-wrap align-items-start justify-center">
-            <div class="mx-auto"><img src="../src/discord.svg" width="200px" class="img-fluid" alt="Bild konnte nicht richtig geladen werden."></div>
+            <div class="mx-auto"><a href="https://discord.gg/vFfeBZm"><img src="../src/discord.svg" width="200px" class="img-fluid" alt="Bild konnte nicht richtig geladen werden."></a></div>
             <div class="discord-text pl-md-5 w-100">
-              <div class="listItem d-flex align-items-center flex-wrap rounded py-2 mb-3">
+              <a href="https://discord.gg/hZKZDzV"><div class="listItem d-flex align-items-center flex-wrap rounded py-2 mb-3">
                 <span class="px-3">😍</span>
                 <span class="text-left d-flex flex-column"><b>Bewirb dich und tritt unseren Teams bei.</b><small>#apply</small></span>
                 <span class="px-3 ml-auto"><i class="fas fa-chevron-right"></i></span>
-              </div>
-              <div class="listItem d-flex align-items-center flex-wrap rounded py-2 mb-3">
+              </div></a>
+              <a href="https://discord.gg/vU6WWUm"><div class="listItem d-flex align-items-center flex-wrap rounded py-2 mb-3">
                 <span class="px-3">🎮</span>
                 <span class="text-left d-flex flex-column"><b>Such dir passende R6 Mates.</b><small>#looking-for-mates</small></span>
                 <span class="px-3 ml-auto"><i class="fas fa-chevron-right"></i></span>
-              </div>
-              <div class="listItem d-flex align-items-center flex-wrap rounded py-2">
+              </div></a>
+              <a href="https://discord.gg/vFfeBZm"><div class="listItem d-flex align-items-center flex-wrap rounded py-2">
                 <span class="px-3">👀</span>
                 <span class="text-left d-flex flex-column"><b>Mach andere mit Black Ice neidisch.</b><small>#packs</small></span>
                 <span class="px-3 ml-auto"><i class="fas fa-chevron-right"></i></span>
-              </div>
+              </div></a>
             </div>
           </div>
         </div>
@@ -150,7 +150,7 @@
                 </div>
                 <div class="card-footer bg-primary-2 text-white p-4 red">
                   <small><b>Rolle:</b> Ingame Leader / Support<br><b>Position:</b> ESL & Teams Management, Team Blue Captain</small><br><br>
-                  <small>– 16 jähriger Designer aus der Nähe von Dortmund. Korrigiere hier die ganzen Rechtschreibfehler.</small>
+                  <small>– Infotext folgt.</small>
                 </div>
               </div>
             </div>
@@ -271,6 +271,21 @@
                 <div class="card-footer bg-primary-2 text-white p-4 yellow">
                   <small><b>Rolle:</b> Flex<br><b>Position:</b> Spieler<br><b>IGN:</b> Pfanner.GodQ</small><br><br>
                   <small>– Infotext folgt.</small><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="singleTeam position-relative py-5">
+            <h3 class="playerTitle position-absolute">Backup</h3>
+            <div class="singleInner row justify-content-center justify-content-md-start">
+              <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
+                <div class="card-body text-white py-5 rounded thermite">
+                  <h4 class="card-title mb-3 text-white text-center"><b>Jannick</b></h5>
+                  <span class="d-block text-center cardBottomFixed text-white">Germany</span>
+                </div>
+                <div class="card-footer bg-primary-2 text-white p-4 green">
+                  <small><b>Rolle:</b> Flex<br><b>Position:</b> Spieler<br><b>IGN:</b> no0bg0d.GodQ</small><br><br>
+                  <small>– Jungfrau Jannick confirmed.</small><br><br>
                 </div>
               </div>
             </div>
