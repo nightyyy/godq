@@ -221,7 +221,7 @@
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
                 <div class="card-body text-white py-5 rounded ash">
                   <h4 class="card-title mb-3 text-white text-center"><b>Nando</b></h5>
-                  <span class="d-block text-center cardBottomFixed text-white">15, Deutschland</span>
+                  <span class="d-block text-center cardBottomFixed text-white">15, Schweiz</span>
                 </div>
                 <div class="card-footer bg-primary-2 text-white p-4 blue">
                   <small><b>Rolle:</b> Fragger<br><b>Position:</b> Spieler<br><b>IGN:</b> Duck.GodQ</small><br><br>
