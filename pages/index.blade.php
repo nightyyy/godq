@@ -246,10 +246,20 @@
               <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
                 <div class="card-body text-white py-5 rounded recruit">
                   <h4 class="card-title mb-3 text-white text-center"><b>Thomas</b></h5>
-                  <span class="d-block text-center cardBottomFixed text-white">Germany</span>
+                  <span class="d-block text-center cardBottomFixed text-white">Österreich</span>
                 </div>
                 <div class="card-footer bg-primary-2 text-white p-4 yellow">
                   <small><b>Rolle:</b> Flex<br><b>Position:</b> Team Captain<br><b>IGN:</b> Zeyda.GodQ</small><br><br>
+                  <small>– Infotext folgt.</small><br><br>
+                </div>
+              </div>
+              <div class="col-md-4 card rounded border-0 bg-transparent mb-4" style="width: 18rem;">
+                <div class="card-body text-white py-5 rounded recruit">
+                  <h4 class="card-title mb-3 text-white text-center"><b>Dean</b></h5>
+                  <span class="d-block text-center cardBottomFixed text-white">18, England</span>
+                </div>
+                <div class="card-footer bg-primary-2 text-white p-4 yellow">
+                  <small><b>Rolle:</b> IGL<br><b>Position:</b> Spieler<br><b>IGN:</b> Reflqz.GodQ</small><br><br>
                   <small>– Infotext folgt.</small><br><br>
                 </div>
               </div>
